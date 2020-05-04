@@ -1,0 +1,97 @@
+.descriptionBlock {
+   display: flex;
+   flex-direction: column;
+}
+
+.mainPhoto {
+    max-width: 200px;
+}
+
+.contact {
+    padding-left: 10px;
+}
+.inform{
+  
+}
+.inform div{
+ 
+    display: flex;
+  
+}
+.inform button{
+    color: white;
+    padding: 4px 25px;
+    font-family: 'Baloo 2', cursive;
+    font-size: 20px;
+    margin-bottom: 10px;
+     border-radius: 10px;
+     text-decoration: none;
+     border: 1px solid rgb(216, 74, 173) ;
+     background: none;
+}
+.inform button:hover{
+    background-color: rgb(216, 74, 173) ;
+}
+.inform h3{
+    font-family: 'Baloo 2', cursive;
+    color: rgb(243, 243, 243);
+    margin-left: 15px;
+   margin-top: 0;
+   font-size: 18px;
+}
+ b{
+     font-weight: bold;
+     font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color:  white;
+}
+.inputfile{
+    width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+
+}
+.inputfile + label {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 120px;
+ border-radius: 10px;
+    font-weight: 700;
+    color: white; 
+     border: 1px solid rgb(216, 74, 173) ;
+    background-color: none ;
+    display: inline-block;
+    padding: 4px 25px ;
+}
+
+.inputfile:focus + label,
+.inputfile + label:hover {
+    background-color: rgb(216, 74, 173) ;
+}
+.inputfile + label {
+	cursor: pointer; 
+}
+textarea{
+  
+    border: 1px solid rgb(216, 74, 173);
+    background: transparent;
+    resize: none;
+    overflow: auto;
+    color: white;
+    border-radius: 5px;
+}
+ 
+
+input{
+    color: white ;
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid rgb(216, 74, 173);
+    background: transparent;
+    resize: none;
+    overflow: auto;
+    color: white;
+    border-radius: 5px;
+}

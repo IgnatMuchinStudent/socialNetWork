@@ -1,0 +1,26 @@
+.nav {
+    grid-area: n;
+    background-color: black;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    margin-right: 5px;
+}
+
+.item a {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #c4bbbb;
+    text-decoration: none;
+}
+.item a:hover{
+    background-color:rgb(216, 74, 173);
+    border-radius: 5px;
+    padding: 2px 25px; 
+}
+
+.item a.activeLink {
+    color: gold;
+    background-color:rgb(216, 74, 173);
+    border-radius: 5px;
+    padding: 2px 25px;
+}

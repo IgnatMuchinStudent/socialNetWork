@@ -1,0 +1,29 @@
+.userPhoto {
+     width: 100px;
+    height: 100px;
+}
+.button{
+    color: white;
+    padding: 4px 20px;
+    font-family: 'Baloo 2', cursive;
+    font-size: 18px;
+    margin-top: 10px;
+     border-radius: 10px;
+     text-decoration: none;
+     border: 1px solid rgb(216, 74, 173) ;
+     background: rgb(216, 74, 173);
+}
+.button:hover{
+    background-color: rgb(95, 95, 95) ;
+}
+
+ h4{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px; 
+    text-decoration: none;
+}
+.user{
+    margin-left: 15px;
+}
+

@@ -1,0 +1,15 @@
+.hide{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+.open{
+    color: rgb(25, 0, 255) ;
+    font-family: 'Roboto', sans-serif;
+  background-color: rgb(153, 152, 152);
+    border-radius: 5px;
+    border: 1px solid white; 
+}
+.status{
+    font-family: 'Roboto', sans-serif;
+    color:  white
+}

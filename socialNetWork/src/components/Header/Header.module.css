@@ -1,0 +1,42 @@
+.header {
+    border-radius: 5px;
+    grid-area: h;
+    background-color: #414a4c;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+
+.header h2{
+    color: white;
+   padding-right: 20px;
+    font-family: 'Baloo 2', cursive;
+ 
+}
+
+.loginBlock {
+    float: right;
+
+}
+.loginBlock a {
+    color: white;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo button{
+    font-family: 'Baloo 2', cursive;
+   font-size: 20px;
+   margin-bottom: 10px;
+    color: gold;
+    border-radius: 10px;
+    text-decoration: none;
+    border: 1px solid rgb(216, 74, 173) ;
+    background: none;
+}
+.logo button:hover{
+    background-color: rgb(216, 74, 173);
+}
+
