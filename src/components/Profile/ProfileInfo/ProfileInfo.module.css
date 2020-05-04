@@ -18,7 +18,7 @@
     display: flex;
   
 }
-.inform button{
+ button{
     color: white;
     padding: 4px 25px;
     font-family: 'Baloo 2', cursive;
@@ -29,7 +29,7 @@
      border: 1px solid rgb(216, 74, 173) ;
      background: none;
 }
-.inform button:hover{
+ button:hover{
     background-color: rgb(216, 74, 173) ;
 }
 .inform h3{
