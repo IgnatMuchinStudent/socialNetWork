@@ -36,6 +36,7 @@ class App extends Component {
                 <Navbar/>
                 <div className='app-wrapper-content'>
                     <Switch>
+                
                         <Route exact path='/'
                                render={() => <Redirect to={"/profile"}/>}/>
 
