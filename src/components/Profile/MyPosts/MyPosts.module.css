@@ -6,6 +6,17 @@
     font-family: 'Baloo 2', cursive;
     margin-top: 10px;
 }
+@media(max-width:400px){
+    .posts{
+       max-width: 180px;
+    }
+    .postsBlock {
+        padding: 20px;
+    }
+    .button{
+        transform: scale(0.9);
+    }
+}
 .button{
     margin-top: 15px;
     background-color: rgb(216, 74, 173);
@@ -14,4 +25,7 @@
     padding: 5px 15px;
     text-decoration: none;
     border: none;
+}
+h3{
+    color: white;
 }

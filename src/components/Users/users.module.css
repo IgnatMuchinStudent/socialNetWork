@@ -23,7 +23,15 @@
     font-size: 18px; 
     text-decoration: none;
 }
+@media(max-width:400px){
+    h4{
+        font-size: 14px;
+    }
+}
 .user{
     margin-left: 15px;
+}
+.disabled{
+    background: red;
 }
 

@@ -14,9 +14,6 @@ const ProfileDataForm = ({handleSubmit, profile, error}) => {
         <div>
             <b> name</b>: {createField("Full name", "fullName", [], Input)}
         </div>
-       
-
-
         <div>
             <b>About me</b>:
             { createField("About me", "aboutMe", [], Textarea  )}

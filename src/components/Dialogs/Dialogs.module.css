@@ -5,6 +5,11 @@
     justify-content: space-around;
 
 }
+@media(max-width:400px){
+    .dialogs{
+        max-width: 200px;
+    }
+}
 
 .dialogsItems {
     padding: 10px;
@@ -20,7 +25,11 @@
     align-self: left;
     font-weight: 800;
 }
-
+@media(max-width:400px){
+    .dialog a{
+        font-size: 14px; 
+    }
+}
 .dialogsItems .active {
     color: gold;
 }
@@ -30,6 +39,11 @@
     padding: 10px;
     font-size: 18px; 
     border-left: 2px solid white;
+}
+@media(max-width:400px){
+    .messages{
+        font-size: 12px; 
+    }
 }
 
 .messages .message {
@@ -46,6 +60,11 @@
      text-decoration: none;
      border: 1px solid rgb(216, 74, 173) ;
      background: rgb(216, 74, 173);
+}
+@media(max-width:400px){
+    .button{
+        padding: 4px 50px;
+    }
 }
 .button:hover{
     background-color: rgb(95, 95, 95) ;

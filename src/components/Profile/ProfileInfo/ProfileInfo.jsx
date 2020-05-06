@@ -47,7 +47,7 @@ const ProfileData = ({profile, isOwner, goToEditMode}) => {
     return <div className={s.inform}>
         {isOwner && <div><button onClick={goToEditMode}>edit</button></div>}
         <div>
-                 <b> name :</b> <h3> {profile.fullName} </h3>
+            <b> name :</b> <h3> {profile.fullName} </h3>
         </div>
         <div>
             <b>About me :</b> <h3>{profile.aboutMe?profile.aboutMe:"Censored"} </h3>

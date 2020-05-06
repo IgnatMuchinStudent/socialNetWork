@@ -3,11 +3,10 @@ import {getAuthUserData} from "./auth-reducer";
 const INITIALIZED_SUCCESS = 'social-network/app/INITIALIZED_SUCCESS';
 
 
-export type InitialStateType = {
-    initialized: boolean
-}
+type InitialStateType = typeof initialState;
 
-let initialState: InitialStateType = {
+
+let initialState= {
     initialized: false
 };
 
