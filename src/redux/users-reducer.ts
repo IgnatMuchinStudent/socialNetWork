@@ -1,9 +1,9 @@
-import {usersAPI} from "../api/api";
 import {updateObjectInArray} from "../utils/object-helpers";
 import {PhotosType, UserType} from '../types/types';
-import { AppStateType, inferActionsType } from './redux-store';
+import {AppStateType, BaseThunkType, inferActionsType} from './redux-store';
 import {Dispatch} from 'redux';
 import {ThunkAction} from 'redux-thunk';
+import {usersAPI} from "../api/users-api";
 
 const FOLLOW = 'social-network/users/FOLLOW';
 const UNFOLLOW = 'social-network/users/UNFOLLOW';
@@ -93,10 +93,10 @@ export const actions ={
 
 
 type ActionsType =  inferActionsType<typeof actions>
-
+type ThunkType = BaseThunkType<ActionsType>
 type GetStateType = () => AppStateType
 type DispatchType = Dispatch<ActionsType>
-type ThunkType = ThunkAction<Promise<void>, AppStateType, unknown, ActionsType>
+
 
 export const requestUsers = (page: number,
                              pageSize: number): ThunkType => {
