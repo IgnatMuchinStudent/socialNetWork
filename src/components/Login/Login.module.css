@@ -1,0 +1,22 @@
+.header{
+    color: white;
+    font-family: 'Baloo 2', cursive;
+}
+p{
+    color: white;
+    font-family: 'Baloo 2', cursive;
+}
+button{
+    color: white;
+    padding: 4px 25px;
+    font-family: 'Baloo 2', cursive;
+    font-size: 20px;
+    margin-bottom: 10px;
+     border-radius: 10px;
+     text-decoration: none;
+     border: 1px solid rgb(216, 74, 173) ;
+     background: none;
+}
+ button:hover{
+    background-color: rgb(216, 74, 173) ;
+}
